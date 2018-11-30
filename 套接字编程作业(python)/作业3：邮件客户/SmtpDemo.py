@@ -13,8 +13,7 @@ def get_mail_server(sender):
 port = '25'  ## SMTP协议默认端口是25
 sender = '2391527690@qq.com'
 mail_server = get_mail_server(sender)
-sender_pass = 'creivoxgdidgdijb'    #注意是授权码,而不是登录密码,需要在邮箱端先获取
-#我的163邮箱授权码为：XT9527;qq邮箱为：creivoxgdidgdijb
+sender_pass = 'put your 授权码 here'    #注意是授权码,而不是登录密码,需要在邮箱端先获取
 receiver = 'csu_xiaotao@163.com'
 mail_msg = 'this is a demo'
 
